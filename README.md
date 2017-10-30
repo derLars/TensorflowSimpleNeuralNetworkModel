@@ -11,7 +11,7 @@ Language: Python 3.6.2
 OS: Ubuntu 16.04 LTS
 Hardware: Intel I7-7700HQ, 16GiB DDR4, GeForce GTX 1050 Ti
 
-# Dependencies:
+3# Dependencies:
 Python3
 Tensorflow
 numpy
@@ -30,9 +30,8 @@ numpy
 
 # Additional Info:
 
-source activate tensorflow
+source ~/tensorflow/bin/activate
 
 ONLY for GPU support:
-export CUDA_HOME=/usr/local/cuda 
-export LD_LIBRARY_PATH=":/usr/local/cuda-8.0/lib64:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cudnn/lib64 
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
 

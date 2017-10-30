@@ -1,3 +1,13 @@
+#####################################
+#									#
+#	Author: Lars Schwensen			#
+#	Date: 30.10.2017				#
+#									#
+#	Module for defining a 			#
+#	Deep neural network 			#
+#									#
+#####################################
+
 import tensorflow as tf
 import numpy as np
 
